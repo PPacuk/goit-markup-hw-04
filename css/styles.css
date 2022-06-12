@@ -81,6 +81,20 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
+.asset{
+  width: 70px;
+  height: 70px;
+}
+.container-asset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color:#F5F4FA ;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .headclass {
   font-family: 'Roboto';
   font-style: normal;
@@ -128,6 +142,15 @@ img {
   margin-top: 94px;
   margin-bottom: 50px;
 }
+.customers-icon {
+  fill: #afb1b8;
+  border: none;
+}
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .customers-list-item {
   display: flex;
   justify-content: center;
@@ -137,12 +160,16 @@ img {
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
- margin-bottom: 94px;
- 
+  margin-bottom: 94px;
 }
-.customer-icon{
-  width: ;
-
+.customers-list-item:hover,
+.customers-list-item:hover svg,
+.customers-list-item:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+.customers-list-link {
+  border: none;
 }
 .crew {
   display: flex;
@@ -150,6 +177,7 @@ img {
   align-items: center;
   gap: 30px;
   width: 270px;
+  margin-top: 50px;
 }
 .social-icon {
   width: 20px;
@@ -221,6 +249,7 @@ img {
 /*========================== footer ==========================*/
 
 .bottom {
+  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -249,6 +278,27 @@ img {
 .example:last-child {
   margin-bottom: 94px;
 }
+.social-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container-social{
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.join{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
 /*========================== component ==========================*/
 .section {
   padding-top: 94px;
@@ -262,7 +312,7 @@ img {
   margin-top: 94px;
 }
 .menuadress:first-child {
-  margin-left: 371px;
+  margin-left: 93px;
 }
 .menuadress:last-child {
   margin-left: 50px;
@@ -270,6 +320,7 @@ img {
 .menu {
   display: flex;
   align-items: center;
+  
 }
 .menuitem:not(:first-child) {
   margin-left: 46px;
@@ -286,7 +337,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .containerflex {
   width: 1200px;
   margin: 0 auto;
@@ -341,6 +391,15 @@ img {
 .adress:hover,
 .adress:focus {
   color: #2196f3;
+  
+  fill:#2196f3;
+}
+.mail-icon{
+  margin-right: 10px;
+
+}
+.phone-icon{
+  margin-right: 10px;
 }
 .adress {
   color: #757575;
