@@ -119,17 +119,73 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16666667;
-  margin-bottom: 50px;
   text-align: center;
 }
 #team {
   padding-top: 94px;
 }
+#customerstitle {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.customers-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+ margin-bottom: 94px;
+ 
+}
+.customer-icon{
+  width: ;
+
+}
 .crew {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
   gap: 30px;
+  width: 270px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.social-list {
+  display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 10px;
+  width: 270px;
+  margin-top: 28px;
+}
+.social-list-item {
+  display: flex;
+  align-items: center;
+}
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+.social-list-link:hover,
+.social-list-link:focus,
+.social-list-link:hover svg {
+  fill: rgba(255, 255, 255, 1);
+  background-color: #2196f3;
+}
+.social-icon:hover,
+.social-icon:focus {
+  fill: rgba(255, 255, 255, 1);
 }
 .back {
   background-color: #f5f4fa;
@@ -153,7 +209,7 @@ img {
 }
 .card {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background-color: #ffffff;
   text-align: center;
   margin: 0px;
@@ -320,7 +376,6 @@ img {
 .button.menuport-list {
   height: 38px;
   padding: 6px 22px;
-
   border-radius: 4px;
 }
 #orderbutton:hover,
@@ -337,11 +392,11 @@ img {
   font-size: 16px;
   line-height: 1.875;
   color: #ffffff;
-  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: block;
   width: 200px;
   height: 50px;
   margin: auto;
+  border: none;
 }
