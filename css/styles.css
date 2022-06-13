@@ -174,10 +174,16 @@ img {
 .customers-list-item:hover svg,
 .customers-list-item:focus {
   fill: #2196f3;
+ cursor: pointer;
+}
+  
+.customers-list-item:hover{
   border: 1px solid #2196f3;
+  
 }
 .customers-list-link {
   border: none;
+  
 }
 .crew {
   display: flex;
