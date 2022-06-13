@@ -74,8 +74,10 @@ img {
   padding-top: 200px;
 }
 .title {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/image/imgbgc.jpg);
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../image/imgbgc.jpg);
   height: 600px;
 }
 #title {
@@ -327,7 +329,6 @@ img {
 }
 .social-list-dark {
   display: flex;
-
   gap: 10px;
   width: 270px;
   margin-top: 28px;
