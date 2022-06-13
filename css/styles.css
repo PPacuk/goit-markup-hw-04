@@ -75,7 +75,7 @@ img {
 }
 .title {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../image/imgbgc.jpg);
+    url(../image/Imgbgc.jpg);
   height: 600px;
 }
 #title {
@@ -141,6 +141,7 @@ img {
   font-size: 36px;
   line-height: 1.16666667;
   text-align: center;
+  margin-bottom: 50px;
 }
 #team {
   padding-top: 94px;
@@ -182,9 +183,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  width: 270px;
   margin-top: 50px;
+}
+.crew-item {
 }
 .social-icon {
   width: 20px;
@@ -289,8 +290,7 @@ img {
   border: 1px solid rgba(238, 238, 238, 1);
 }
 .example-img:hover,
-.example-img figure 
-.example-img {
+.example-img figure .example-img {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
