@@ -174,16 +174,14 @@ img {
 .customers-list-item:hover svg,
 .customers-list-item:focus {
   fill: #2196f3;
- cursor: pointer;
+  cursor: pointer;
 }
-  
-.customers-list-item:hover{
+
+.customers-list-item:hover {
   border: 1px solid #2196f3;
-  
 }
 .customers-list-link {
   border: none;
-  
 }
 .crew {
   display: flex;
@@ -300,6 +298,7 @@ img {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .example:last-child {
   margin-bottom: 94px;
