@@ -53,7 +53,6 @@ img {
   text-decoration: none;
   color: #212121;
   padding-top: 24px;
-  
 }
 .banner-dark {
   font-family: 'Raleway';
@@ -63,7 +62,6 @@ img {
   line-height: 1.19230769;
   text-decoration: none;
   color: #212121;
-  
 }
 
 /*========================== main ==========================*/
@@ -90,17 +88,17 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
-.asset{
+.asset {
   width: 70px;
   height: 70px;
 }
-.container-asset{
+.container-asset {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 270px;
   height: 120px;
-  background-color:#F5F4FA ;
+  background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -280,7 +278,7 @@ img {
   margin-top: 50px;
   justify-content: space-between;
 }
-.container-contact{
+.container-contact {
   display: flex;
   flex-direction: column;
   width: 246px;
@@ -293,36 +291,34 @@ img {
 .example:last-child {
   margin-bottom: 94px;
 }
-.social-list{
+.social-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
-.container-social{
- display: flex;
- flex-wrap: wrap;
+.container-social {
+  display: flex;
+  flex-wrap: wrap;
   width: 206px;
   height: 80px;
   padding-top: 12px;
-
-  }
-  .bottom>.containerflex{
-    justify-content: flex-start;
-    gap: 70px;
-    align-items: center;
-    padding-bottom: 60px;
-  }
-.join{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-;
+}
+.bottom > .containerflex {
+  justify-content: flex-start;
+  gap: 70px;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.join {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .social-icon-dark {
   width: 20px;
@@ -331,7 +327,7 @@ color: #FFFFFF;
 }
 .social-list-dark {
   display: flex;
- 
+
   gap: 10px;
   width: 270px;
   margin-top: 28px;
@@ -376,7 +372,6 @@ color: #FFFFFF;
 .menu {
   display: flex;
   align-items: center;
-  
 }
 .menuitem:not(:first-child) {
   margin-left: 46px;
@@ -447,14 +442,13 @@ color: #FFFFFF;
 .adress:hover,
 .adress:focus {
   color: #2196f3;
-  
-  fill:#2196f3;
-}
-.mail-icon{
-  margin-right: 10px;
 
+  fill: #2196f3;
 }
-.phone-icon{
+.mail-icon {
+  margin-right: 10px;
+}
+.phone-icon {
   margin-right: 10px;
 }
 .adress {
