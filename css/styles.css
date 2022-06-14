@@ -294,8 +294,7 @@ img {
   border: 1px solid rgba(238, 238, 238, 1);
 }
 .example-img:hover,
-.example-img:hover figure 
-.example-img {
+.example-img:hover figure .example-img {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -336,7 +335,7 @@ img {
 .social-icon-dark {
   width: 20px;
   height: 20px;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .social-list-dark {
   display: flex;
@@ -454,21 +453,21 @@ img {
 .adress:hover,
 .adress:focus {
   color: #2196f3;
-
   fill: #2196f3;
 }
 .mail-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .phone-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .adress {
   color: #757575;
   text-decoration: none;
 }
-
-.link:visited {
+.link {
   color: #212121;
 }
 .link:hover,
